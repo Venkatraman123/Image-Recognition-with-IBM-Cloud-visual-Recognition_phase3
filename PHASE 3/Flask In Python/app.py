@@ -6,12 +6,9 @@ import os
 app = Flask(__name__)
 
 # IBM Visual Recognition credentials
-api_key = GoPKZXMQizFT3R1VBqhGI4cd4l8E0H32qKIYo3E50YhK
+api_key = 9vB-X3UL2OMKso53BzGxdWu6dM20Q5p3JWy67RzuLyzV
 service_url = {
-	"name": "Watson studio ",
-	"description": "",
-	"createdAt": "2023-10-26T04:56+0000",
-	"apikey": "GoPKZXMQizFT3R1VBqhGI4cd4l8E0H32qKIYo3E50YhK"
+	"https://api.au-syd.assistant.watson.cloud.ibm.com/instances/ca87a79a-64e6-44f8-9218-0fa1166b91ae"
 }
 
 authenticator = IAMAuthenticator(api_key)
